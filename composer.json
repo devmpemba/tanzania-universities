@@ -1,0 +1,19 @@
+{
+    "name": "salymdev/tanzania-universities",
+    "description": "A PHP package listing all universities in Tanzania",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salym Mbise",
+            "email": "salymdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SalymMbise\\Universities\\": "src/"
+        }
+    }
+}
