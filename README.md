@@ -10,9 +10,13 @@ You can install the package via Composer:
 
 ```bash
 composer require salymdev/tanzania-universities
+```
+
+## 📖 Documentation
 
 🚀 Usage
 
+```bash
 require 'vendor/autoload.php';
 
 use SalymMbise\Universities\UniversityList;
@@ -22,8 +26,10 @@ $universities = UniversityList::all();
 foreach ($universities as $uni) {
     echo $uni['name'] . " - " . $uni['location'] . "\n";
 }
+```
 
-Each university includes:
+
+## Each university includes:
 
 name (e.g. University of Dar es Salaam)
 
@@ -37,6 +43,8 @@ website (e.g. https://www.udsm.ac.tz)
 
 📚 Example Output
 
+```bash
+
 [
     [
         'name' => 'University of Dar es Salaam',
@@ -47,9 +55,10 @@ website (e.g. https://www.udsm.ac.tz)
     ],
     ...
 ]
+```
 
 
-🤝 Contributing
+## 🤝 Contributing
 Feel free to fork the repo, improve the data or structure, and send a pull request. Let’s make this more useful together!
 
 📧 Author
@@ -62,8 +71,7 @@ Salym Mbise
 Licensed under the MIT License.
 
 
----
 
-you can tweak the emojis or sections if you want it more minimal — but this version will look pro on GitHub and Packagist 😎
+You can tweak the emojis or sections if you want it more minimal — but this version will look pro on GitHub and Packagist 😎
 
 
